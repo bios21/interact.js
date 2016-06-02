@@ -427,8 +427,9 @@ scope.interactables.indexOfElement = function indexOfElement (target, context) {
   for (let i = 0; i < this.length; i++) {
     const interactable = this[i];
 
+    // tweak htmlelt + context
     if (interactable.target === target
-        && (!isType.isString(target) || (interactable._context === context))) {
+        && (interactable._context === context)) {
       return i;
     }
   }
