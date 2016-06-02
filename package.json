@@ -1,9 +1,9 @@
 {
   "name": "interact.js",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "repository": {
     "type": "git",
-    "url": "https://github.com/taye/interact.js.git"
+    "url": "https://github.com/bios21/interact.js.git"
   },
   "main": "dist/interact.js",
   "scripts": {
@@ -17,6 +17,9 @@
       "name": "Taye Adeyemi",
       "email": "dev@taye.me",
       "url": "http://taye.me"
+    },
+    {
+      "name": "Lilian Saget-Lethias"
     }
   ],
   "keywords": [

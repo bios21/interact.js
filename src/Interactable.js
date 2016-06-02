@@ -428,8 +428,7 @@ scope.interactables.indexOfElement = function indexOfElement (target, context) {
     const interactable = this[i];
 
     // tweak htmlelt + context
-    if (interactable.target === target
-        && (interactable._context === context)) {
+    if ((interactable.target === target) && (interactable._context === context)) {
       return i;
     }
   }
